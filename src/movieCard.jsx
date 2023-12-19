@@ -1,3 +1,4 @@
+import images from './assets/icon-image-not-found-free-vector.jpg'
 const MovieCard = ({ movie: { id, title, poster, year, genres } }) => {
   return (
     <div className="movie" key={id}>
@@ -7,7 +8,7 @@ const MovieCard = ({ movie: { id, title, poster, year, genres } }) => {
 
       <div>
         <img
-          src={poster !== "N/A" ? poster : "https://via.placeholder.com/400"}
+          src={poster}
           alt={title}
         />
       </div>

@@ -14,7 +14,6 @@ function App() {
 
     setMovies(data.data);
 
-    console.log(data.data);
   };
 
   return (
@@ -39,7 +38,7 @@ function App() {
       {movies?.length > 0 ? (
         <div className="container">
           {movies.map((movie) => (
-            <MovieCard movie={movie} />
+            <MovieCard movie={movie} key={movie.id} />
           ))}
         </div>
       ) : (
