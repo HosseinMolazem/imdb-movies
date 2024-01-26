@@ -7,6 +7,12 @@
 ***
 
 
+# [instagram](https://www.instagram.com/debugger._/)
+#  [Telegram](https://t.me/Debugger0)
+
+***
+
+
 # It is responsive on mobile 
 ![](https://github.com/HosseinMolazem/imdb-movies/blob/master/src/assets/photo_2023-12-19_15-47-00.jpg)
 
